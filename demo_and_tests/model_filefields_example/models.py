@@ -1,6 +1,6 @@
 # django
-from django.core.urlresolvers import reverse
 from django.db import models
+from django.urls import reverse
 # third party
 from db_file_storage.model_utils import delete_file, delete_file_if_needed
 

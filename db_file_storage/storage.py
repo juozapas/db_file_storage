@@ -7,7 +7,7 @@ import os
 from django.apps import apps
 from django.core.files.base import ContentFile
 from django.core.files.storage import Storage
-from django.core.urlresolvers import reverse
+from django.urls import reverse
 from django.utils.crypto import get_random_string
 from django.utils.http import urlencode
 from django.utils.deconstruct import deconstructible
