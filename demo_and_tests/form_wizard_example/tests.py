@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 import os
 # django
-from django.core.urlresolvers import reverse
+from django.urls import reverse
 from django.conf import settings
 from django.test import TestCase
 # third party

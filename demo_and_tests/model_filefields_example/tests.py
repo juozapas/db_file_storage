@@ -8,7 +8,7 @@ import sys
 from django.core.files.storage import default_storage
 from django.conf import settings
 from django.core.files.base import ContentFile
-from django.core.urlresolvers import reverse
+from django.urls import reverse
 from django.test import TestCase
 from django.utils.http import urlencode
 # project
