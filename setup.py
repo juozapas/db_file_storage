@@ -7,7 +7,7 @@ readme_file = open('README.rst')
 
 setup(
     name='django-db-file-storage',
-    version='0.4.5',
+    version='0.4.6',
     author='Victor Oliveira da Silva',
     author_email='victor_o_silva@hotmail.com',
     packages=['db_file_storage'],
@@ -21,7 +21,7 @@ setup(
                 "in your database instead of your file system.",
     long_description=readme_file.read(),
     install_requires=[
-        "Django<2.0",
+        "Django>1.11",
     ],
     classifiers=[
         'Framework :: Django',
